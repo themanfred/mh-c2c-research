@@ -152,7 +152,7 @@ prompt = generate_r2r_prompt(task, roles=roles, strategy="vote")
 
 1. **Clone Repository:**
 ```bash
-git clone https://github.com/username/mh-c2c-research.git
+git clone https://github.com/themanfred/mh-c2c-research.git
 cd mh-c2c-research
 ```
 
@@ -212,8 +212,8 @@ MIT License - see [LICENSE](LICENSE) for details.
 ## Contact
 
 **Thomas Freund**  
-- GitHub: [@username](https://github.com/username)
-- Email: [contact@email.com]
+- GitHub: [@themanfred](https://github.com/themanfred)
+- Email: tfreundc@gmail.com
 
 ## Acknowledgments
 
@@ -228,4 +228,4 @@ Special thanks to the broader AI research community for the foundational techniq
 
 ---
 
-⭐ **If you find this research useful, please consider starring the repository!**
+If you find this research useful, please consider starring the repository!
