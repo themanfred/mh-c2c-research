@@ -1,12 +1,25 @@
 # Multi-Agent Critique-to-Consensus (MH-C2C) Research
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
+[![Research Status](https://img.shields.io/badge/status-publication--ready-green.svg)](https://github.com/themanfred/mh-c2c-research)
+
 **Author:** Thomas Freund  
+**Contact:** tfreundc@gmail.com  
 **License:** MIT  
 **Status:** Publication-ready research
 
 ## Overview
 
-This repository contains the complete research implementation and evaluation of Multi-Agent Critique-to-Consensus methods for enhancing Large Language Model reasoning capabilities.
+This repository contains the complete research implementation and evaluation of **Multi-Agent Critique-to-Consensus (MH-C2C)** methods for enhancing Large Language Model reasoning capabilities. Our approach demonstrates **15% performance improvement** over traditional prompting techniques on complex reasoning tasks.
+
+## 🔥 Key Highlights
+
+- **Novel Algorithm**: First application of Metropolis-Hastings to multi-agent LLM reasoning
+- **Practical Implementation**: Roast-to-Refine (R2R) - single-prompt solution achieving 80% of MH-C2C performance
+- **Comprehensive Evaluation**: 5 techniques tested across 13 reasoning tasks
+- **Publication Ready**: 12,000+ word academic paper included
+- **Open Source**: Complete framework for reproducible research
 
 ### Key Contributions
 
@@ -15,11 +28,21 @@ This repository contains the complete research implementation and evaluation of 
 3. **Comprehensive Evaluation**: Framework comparing 5 prompting techniques across 13 reasoning tasks
 4. **15% Performance Improvement**: Demonstrated superiority on complex reasoning tasks
 
-## Quick Start
+## 🚀 Quick Start
 
 ### Prerequisites
 ```bash
 pip install openai tiktoken tenacity python-dotenv
+```
+
+### Environment Setup
+```bash
+# Clone repository
+git clone https://github.com/themanfred/mh-c2c-research.git
+cd mh-c2c-research
+
+# Create .env file with your OpenAI API key
+echo "OPENAI_API_KEY=sk-your-key-here" > .env
 ```
 
 ### Basic Usage
