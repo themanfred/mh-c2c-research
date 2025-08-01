@@ -7,7 +7,7 @@
 **Author:** Thomas Freund  
 **Contact:** thomas@fundamentosia.com 
 **License:** MIT  
-**Status:** Publication-ready research
+**Status:**  Review
 
 ## Overview
 
