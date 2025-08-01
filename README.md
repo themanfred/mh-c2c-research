@@ -5,7 +5,7 @@
 [![Research Status](https://img.shields.io/badge/status-publication--ready-green.svg)](https://github.com/themanfred/mh-c2c-research)
 
 **Author:** Thomas Freund  
-**Contact:** thomas@fundamentosia.com
+**Contact:** thomas@fundamentosia.com 
 **License:** MIT  
 **Status:** Publication-ready research
 
