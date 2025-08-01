@@ -11,7 +11,19 @@
 
 ## Overview
 
-This repository contains the complete research implementation and evaluation of **Multi-Agent Critique-to-Consensus (MH-C2C)** methods for enhancing Large Language Model reasoning capabilities. Our approach demonstrates **15% performance improvement** over traditional prompting techniques on complex reasoning tasks.
+This repository contains the complete research implementation and evaluation of **Multi-Agent Metropolis-Hastings Critique-to-Consensus (MH-C2C)** methods for enhancing Large Language Model reasoning capabilities. Our approach demonstrates **15% performance improvement** over traditional prompting techniques on complex reasoning tasks. We introduce Critique-to-Consensus (C2C), a prompting frame-
+work designed to simulate emergent reasoning through adversarial it-
+eration. Informally we also created a promting techinque called  Roast-to-Refine (R2R), this method en-
+ables multiple reasoning paths to critique (roast) themselves and one another,
+evolving through iterative refinement toward a superior solution. By
+incorporating both self-assessment and peer review into a prompting
+loop, C2C mimics debate, peer feedback, and design thinking, foster-
+ing robust idea evolution. We demonstrate the advantages of C2C over
+traditional frameworks such as Tree-of-Thought [4], Debate Models [2],
+Constitutional AI [1], and Reflection-based prompting [3]. Our exper-
+iments show that C2C not only improves output quality but also en-
+courages transparency, convergence, and robustness in language model
+reasoning.
 
 ## 🔥 Key Highlights
 
